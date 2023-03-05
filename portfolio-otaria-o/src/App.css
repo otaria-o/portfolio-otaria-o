@@ -2,8 +2,19 @@
   text-align: center;
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
 .msx {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.animated {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 /* .App-logo {
