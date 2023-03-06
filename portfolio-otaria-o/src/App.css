@@ -1,4 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+} 
+
+#root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Home */
+
+#sfondo {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  filter: brightness(1.4);
+}
 
 .main {
  display: grid;
@@ -17,12 +34,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: context-menu;
+  cursor: pointer;
 }
 
-.tendina {
+.tendina a {
   font-size: smaller;
   text-decoration: none;
+  padding: 3px;
+  line-height: 1.6;
 }
 
 
@@ -33,34 +52,42 @@
   flex-direction: row-reverse;
   font-size: smaller;
   cursor: context-menu;
+  padding: 3%;
 }
 
 .msx {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .info {
-  padding: 7%;
+  padding: 13%;
   line-height: 2;
-  text-decoration: none;
+  color: black;
+}
+
+.info p:hover {
+  color: purple
+}
+
+.info h2:hover {
+  color: brown;
 }
 
 /* Coding */
 
-.coding {
-  background-color: goldenrod;
-}
+/* .coding {
+  background-color: palevioletred;
+} */
+
 .preview {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
   padding: 2%;
   border: 2px solid purple;
 }
 
 .cardpreview {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 5%;
+  padding: 3%;
 }
 
 /* Gif */

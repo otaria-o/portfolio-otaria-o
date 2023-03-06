@@ -1,33 +1,46 @@
-import { useState } from "react";
-
 function Contributions() {
-  const [language, setLanguage] = useState("ENG");
-  const handleIta = () => {
-    setLanguage("ITA");
-  };
-  const handleEng = () => {
-    setLanguage("ENG");
-  };
   return (
     <div>
-      <aside className="language">
-        <p onClick={handleEng}>ENG</p>
-        <p>|</p>
-        <p onClick={handleIta}>ITA</p>
-      </aside>
       <div className="info">
         <section>
-          <h1>TECH</h1>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <p>freeCodeCamp's translation program</p>
-          </a>
+          <h2>tech</h2>
+
+          <p>
+            free translator at{" "}
+            <a
+              href="https://www.freecodecamp.org/italian/news/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              freeCodeCamp
+            </a>
+            .
+          </p>
         </section>
+        <br />
         <section>
-          <h1>LIT</h1>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <p>Milkbook, an italian website about children's literature</p>
-          </a>
-          <p>Altri Animali Tuffi</p>
+          <h2>lit</h2>
+
+          <p>
+            I collaborate with{" "}
+            <a
+              href="https://www.milkbook.it"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Milkbook
+            </a>
+            , an italian website about children's literature, and also wrote few
+            articles for{" "}
+            <a
+              href="https://www.altrianimali.it"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Altri Animali
+            </a>
+            .
+          </p>
         </section>
       </div>
     </div>
@@ -35,6 +48,7 @@ function Contributions() {
 }
 
 export default Contributions;
+
 // https://www.milkbook.it/author/roberta-garavaglia/
 // https://www.altrianimali.it/author/roberta-garavaglia/
 // https://tuffirivista.com/immersioni/
