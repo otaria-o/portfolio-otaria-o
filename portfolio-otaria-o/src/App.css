@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+/* Home */
+
+.main {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ align-content: center;
+ justify-items: center;
+ padding: 20%;
 }
 
 .icon {
@@ -7,9 +13,24 @@
   height: 30px;
 }
 
+/* Writeme */
+
+.language {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: smaller;
+  cursor: context-menu;
+  padding: 3%;
+}
+
 .msx {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+  padding: 7%;
+  line-height: 2;
 }
 
 .animated {

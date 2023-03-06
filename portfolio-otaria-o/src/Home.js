@@ -3,11 +3,11 @@ import { useState } from "react";
 
 function Home() {
   const [tendina, setTendina] = useState(false);
-  const handlePortfolio = () => {
+  const handlePortfolio = (evt) => {
     setTendina(!false);
   };
   return (
-    <section>
+    <section className="main">
       <a
         href="https://www.linkedin.com/in/roberta-garavaglia"
         target="_blank"
@@ -23,7 +23,13 @@ function Home() {
         <img className="icon" src="/github.svg" alt="github" />
       </a>
       <p onClick={handlePortfolio}>PORTFOLIO</p>
-      {setTendina === !false && <p>APP GIF CONTRIBUTIONS</p>}
+      {tendina === !false && (
+        <nav>
+          <p>APP</p>
+          <p>GIF</p>
+          <p>CONTRIBUTIONS</p>
+        </nav>
+      )}
       <a
         href="http://independent.academia.edu/robertagaravaglia"
         target="_blank"
