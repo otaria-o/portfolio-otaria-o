@@ -46,6 +46,22 @@
   text-decoration: none;
 }
 
+/* Coding */
+
+.coding {
+  background-color: goldenrod;
+}
+.preview {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 2%;
+  border: 2px solid purple;
+}
+
+.cardpreview {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5%;
+}
 
 /* Gif */
 
@@ -59,7 +75,6 @@
   max-height: 500px;
   padding: 5%;
   border: 2px solid white;
-  font-family: 'Courier New', Courier, monospace;
   background-color: black;
 }
 

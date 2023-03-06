@@ -27,9 +27,7 @@ function Contributions() {
           <a href="" target="_blank" rel="noopener noreferrer">
             <p>Milkbook, an italian website about children's literature</p>
           </a>
-          <p>
-            I also wrote few papers about Primo Levi and some others articles
-          </p>
+          <p>Altri Animali Tuffi</p>
         </section>
       </div>
     </div>
@@ -37,3 +35,6 @@ function Contributions() {
 }
 
 export default Contributions;
+// https://www.milkbook.it/author/roberta-garavaglia/
+// https://www.altrianimali.it/author/roberta-garavaglia/
+// https://tuffirivista.com/immersioni/
