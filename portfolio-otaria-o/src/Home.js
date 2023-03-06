@@ -4,7 +4,11 @@ import { useState } from "react";
 function Home() {
   const [tendina, setTendina] = useState(false);
   const handlePortfolio = (evt) => {
-    setTendina(!false);
+    if (tendina === false) {
+      setTendina(true);
+    } else if (tendina === true) {
+      setTendina(false);
+    }
   };
   return (
     <section className="main">
@@ -22,14 +26,22 @@ function Home() {
       >
         <img className="icon" src="/github.svg" alt="github" />
       </a>
-      <p onClick={handlePortfolio}>PORTFOLIO</p>
-      {tendina === !false && (
-        <nav>
-          <p>APP</p>
-          <p>GIF</p>
-          <p>CONTRIBUTIONS</p>
-        </nav>
-      )}
+      <div className="portfoliobar">
+        <p onClick={handlePortfolio}>PORTFOLIO</p>
+        {tendina === true && (
+          <nav className="tendina">
+            <Link to="/app">
+              <p>APPS</p>
+            </Link>
+            <Link to="/gif">
+              <p>GIFS</p>
+            </Link>
+            <Link to="/contributions">
+              <p>CONTRIBUTIONS</p>
+            </Link>
+          </nav>
+        )}
+      </div>
       <a
         href="http://independent.academia.edu/robertagaravaglia"
         target="_blank"

@@ -1,6 +1,6 @@
 function Gif() {
   return (
-    <div>
+    <div className="gifboard">
       <img className="animated" src="/omina.gif"></img>
     </div>
   );

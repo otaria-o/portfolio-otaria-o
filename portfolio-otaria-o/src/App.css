@@ -13,14 +13,26 @@
   height: 30px;
 }
 
-/* Writeme */
+.portfoliobar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: context-menu;
+}
+
+.tendina {
+  font-size: smaller;
+  text-decoration: none;
+}
+
+
+/* Writeme & Contributions */
 
 .language {
   display: flex;
   flex-direction: row-reverse;
   font-size: smaller;
   cursor: context-menu;
-  padding: 3%;
 }
 
 .msx {
@@ -31,11 +43,24 @@
 .info {
   padding: 7%;
   line-height: 2;
+  text-decoration: none;
+}
+
+
+/* Gif */
+
+.gifboard {
+  display: grid;
+  justify-content: center;
 }
 
 .animated {
   max-width: 500px;
   max-height: 500px;
+  padding: 5%;
+  border: 2px solid white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
 }
 
 /* .App-logo {
