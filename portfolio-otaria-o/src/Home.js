@@ -12,6 +12,7 @@ function Home() {
   };
   return (
     <div className="board">
+      <img className="sfondo" src="112610682.jfif"></img>
       <section className="main">
         <a
           href="https://www.linkedin.com/in/roberta-garavaglia"
@@ -54,6 +55,9 @@ function Home() {
           <img className="icon" src="/gmail.svg" alt="gmail" />
         </Link>
       </section>
+      {/* <footer>
+        <img className="papaveri" src="/papaveri.jpg"></img>
+      </footer> */}
     </div>
   );
 }

@@ -37,7 +37,15 @@ function Contributions() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Altri Animali
+              Altri Animali{" "}
+            </a>
+            and{" "}
+            <a
+              href="https://tuffirivista.com/immersioni/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tuffi
             </a>
             .
           </p>
