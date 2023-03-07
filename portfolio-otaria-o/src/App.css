@@ -9,22 +9,22 @@
 
 /* Home */
 
-.board {
-  /* background-color: palevioletred; */
+/* .board {
+  background-color: palevioletred;
   width: 100%;
   height: 100vh;
   z-index: -2;
-}
+} */
 
-.sfondo {
+/* .sfondo {
   height: 100vh;
   position: fixed;
   z-index: -1;
-  /* filter: brightness(1.2); */
+  filter: brightness(1.2);
   border-radius: 50%;
   background-color: palevioletred;
   right: 25%;
-}
+} */
 
 .main {
  display: grid;
@@ -39,19 +39,22 @@
   height: 30px;
 }
 
-.portfoliobar {
+.link {
+  text-decoration: none;
+}
+/* .portfoliobar {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-}
+} */
 
-.tendina a {
+/* .tendina a {
   font-size: smaller;
   text-decoration: none;
   padding: 3px;
   line-height: 1.6;
-}
+} */
 
 /* .papaveri {
   width: 60%;
@@ -59,14 +62,6 @@
 } */
 
 /* Writeme & Contributions */
-
-.language {
-  display: flex;
-  flex-direction: row-reverse;
-  font-size: smaller;
-  cursor: context-menu;
-  padding: 3%;
-}
 
 .msx {
   text-align: center;
@@ -88,10 +83,6 @@
 
 /* Coding */
 
-/* .coding {
-  background-color: palevioletred;
-} */
-
 .preview {
   max-width: 300px;
   max-height: 300px;
@@ -103,12 +94,10 @@
   padding: 3%;
 }
 
-/* Gif */
-
-.gifboard {
-  display: grid;
-  justify-content: center;
-  background-color: palevioletred;
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
 }
 
@@ -120,6 +109,10 @@
   background-color: black;
 }
 
+.tutto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

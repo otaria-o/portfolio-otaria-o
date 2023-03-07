@@ -1,7 +1,9 @@
 function Coding() {
   return (
-    <div className="coding">
+    <div className="board">
+      <h2>APPS</h2>
       <section className="cardpreview">
+        <h3>I like books</h3>
         <img
           className="preview"
           src="/bcbf2023.png"
@@ -20,6 +22,7 @@ function Coding() {
         </figcaption>
       </section>
       <section className="cardpreview">
+        <h3>I like cookies</h3>
         <img
           className="preview"
           src="/bcbf2023.png"

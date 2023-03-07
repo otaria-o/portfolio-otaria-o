@@ -1,10 +1,10 @@
 function Contributions() {
   return (
     <div>
-      <div className="info">
+      <div className="board">
+        <h2>CONTRIBUTIONS</h2>
         <section>
-          <h2>tech</h2>
-
+          <h3>things that I do for Tech:</h3>
           <p>
             free translator at{" "}
             <a
@@ -19,8 +19,7 @@ function Contributions() {
         </section>
         <br />
         <section>
-          <h2>lit</h2>
-
+          <h3>things that I do for Lit:</h3>
           <p>
             I collaborate with{" "}
             <a
@@ -30,8 +29,8 @@ function Contributions() {
             >
               Milkbook
             </a>
-            , an italian website about children's literature, and also wrote few
-            articles for{" "}
+            , an italian website about children's literature.
+            <br />I also wrote few articles for{" "}
             <a
               href="https://www.altrianimali.it"
               target="_blank"
