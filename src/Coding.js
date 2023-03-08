@@ -11,7 +11,7 @@ function Coding() {
         ></img>
         <figcaption>
           a calendar dedicated to the Bologna Children's Book Fair, 6-9 March
-          2023, 60th edition, Bologna, Italy. it is on line!{" "}
+          2023, 60th edition, Bologna, Italy.{" "}
           <a
             href="https://bcbf2023-calendar.vercel.app/"
             target="_blank"
@@ -25,7 +25,7 @@ function Coding() {
         <h3>I like cookies</h3>
         <img
           className="preview"
-          src="/bcbf2023.png"
+          src="/cookies.jpg"
           alt="colourful calendar"
         ></img>
         <figcaption>

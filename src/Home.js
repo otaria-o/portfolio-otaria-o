@@ -35,7 +35,7 @@ function Home() {
       </section>
       <footer>
         <img
-          className="home"
+          className="pic"
           src="/large_amelie-1024x593.jpg"
           alt="Amelie kid"
         />

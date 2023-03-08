@@ -23,7 +23,7 @@ function Portfolio() {
       </section>
       <footer className="footer">
         <Link to="/">
-          <h2 className="back">roberta garavaglia</h2>
+          <h2 className="back">«</h2>
         </Link>
         {thanks === "off" && (
           <h2 className="pointer" onClick={handleThanks}>
