@@ -1,21 +1,9 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Writeme() {
-  // const [language, setLanguage] = useState("ENG");
-  // const handleIta = () => {
-  //   setLanguage("ITA");
-  // };
-  // const handleEng = () => {
-  //   setLanguage("ENG");
-  // };
   return (
-    <section className="msx">
-      {/* <aside className="language">
-            <p onClick={handleEng}>ENG</p>
-            <p>|</p>
-            <p onClick={handleIta}>ITA</p>
-          </aside> */}
-      <main className="info">
+    <div className="contacts">
+      <main className="msx">
         <p>
           if you have a message for me, don't hesitate to write to
           roberta.garavaglia.it@gmail.com
@@ -26,7 +14,13 @@ function Writeme() {
           <img src="/heart.svg" alt="cuore" />
         </p>
       </main>
-    </section>
+      <footer className="footer">
+        <Link to="/">
+          <h2 className="back">roberta garavaglia</h2>
+        </Link>
+        <h2>credits</h2>
+      </footer>
+    </div>
   );
 }
 

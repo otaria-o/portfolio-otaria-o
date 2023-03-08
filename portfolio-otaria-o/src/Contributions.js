@@ -48,6 +48,11 @@ function Contributions() {
             </a>
             .
           </p>
+          <h2>ABOUT</h2>
+          <p>
+            I grew up in Italy, close to Milan, and wanted to be a dancer.
+            <br />I live in Berlin with my husband and daughter.
+          </p>
         </section>
       </div>
     </div>

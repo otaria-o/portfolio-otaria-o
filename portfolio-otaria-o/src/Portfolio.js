@@ -4,10 +4,14 @@ import Contributions from "./Contributions";
 
 function Portfolio() {
   return (
-    <div className="tutto">
+    <div id="tutto">
       <Coding></Coding>
       <Gif></Gif>
       <Contributions></Contributions>
+      <footer className="footer">
+        <h2 className="back">roberta garavaglia</h2>
+        <h2>credits</h2>
+      </footer>
     </div>
   );
 }

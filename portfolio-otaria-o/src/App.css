@@ -26,12 +26,27 @@
   right: 25%;
 } */
 
+.board {
+  background-color: palevioletred;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#home {
+  padding: 30%;
+}
+
 .main {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- align-content: center;
- justify-items: center;
- padding: 20%;
+  background-color:palevioletred;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+  padding: 20%;
 }
 
 .icon {
@@ -39,8 +54,18 @@
   height: 30px;
 }
 
-.link {
-  text-decoration: none;
+.button {
+  background-color: peachpuff;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+
+.home {
+  max-width: 100px;
+  max-height: 100px;
+  border: solid 2px black;
+  border-radius: 50%;
 }
 /* .portfoliobar {
   display: flex;
@@ -61,24 +86,31 @@
   height: 300px;
 } */
 
-/* Writeme & Contributions */
+/* Writeme */
 
-.msx {
-  text-align: center;
+.contacts {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
 }
 
-.info {
+.msx {
   padding: 20%;
   line-height: 2;
   color: black;
+  text-align: center;
 }
 
-.info p:hover {
+.msx p:hover {
   color: purple
 }
 
-.info h2:hover {
-  color: brown;
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  bottom: 0px;
 }
 
 /* Coding */
@@ -94,25 +126,24 @@
   padding: 3%;
 }
 
-.board {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
+/* Gif */
 
 .animated {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
   padding: 5%;
   border: 2px solid white;
   background-color: black;
 }
 
-.tutto {
+#tutto {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: whitesmoke;
 }
+
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="board">
+    <div className="board" id="home">
+      <h1 className="name">roberta garavaglia</h1>
       <section className="main">
         <a
           href="https://www.linkedin.com/in/roberta-garavaglia"
@@ -19,7 +20,7 @@ function Home() {
           <img className="icon" src="/github.svg" alt="github" />
         </a>
         <Link to="/portfolio">
-          <p className="link">PORTFOLIO</p>
+          <button className="button">PORTFOLIO</button>
         </Link>
         <a
           href="http://independent.academia.edu/robertagaravaglia"
@@ -28,12 +29,12 @@ function Home() {
         >
           <img className="icon" src="/academia.svg" alt="academia" />
         </a>
-        <Link to="/write-me">
+        <Link to="/contacts">
           <img className="icon" src="/gmail.svg" alt="gmail" />
         </Link>
       </section>
       <footer>
-        <img src="/heart.jpg"></img>
+        <img className="home" src="/heart.jpg" alt="grande cuore nero" />
       </footer>
     </div>
   );
