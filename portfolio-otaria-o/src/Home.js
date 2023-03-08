@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="board" id="home">
+    <div className="board">
       <h1 className="name">roberta garavaglia</h1>
       <section className="main">
         <a
@@ -34,7 +34,11 @@ function Home() {
         </Link>
       </section>
       <footer>
-        <img className="home" src="/heart.jpg" alt="grande cuore nero" />
+        <img
+          className="home"
+          src="/large_amelie-1024x593.jpg"
+          alt="Amelie kid"
+        />
       </footer>
     </div>
   );

@@ -1,6 +1,6 @@
 function Gif() {
   return (
-    <div className="board">
+    <div className="port">
       <h2>GIFS</h2>
       <section>
         <h3>omina</h3>

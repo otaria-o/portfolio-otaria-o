@@ -27,17 +27,13 @@
 } */
 
 .board {
-  background-color: palevioletred;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-}
-
-#home {
   padding: 30%;
+  background-color: palevioletred;
 }
 
 .main {
@@ -89,7 +85,7 @@
 /* Writeme */
 
 .contacts {
-  background-color: whitesmoke;
+  background-color: beige;
   width: 100%;
   height: 100vh;
 }
@@ -110,7 +106,23 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  bottom: 0px;
+  background-color: beige;
+}
+
+.pointer {
+  cursor:pointer;
+}
+
+.creditslist {
+  font-size: smaller;
+}
+
+.creditslist button {
+  border-radius: 50%;
+  border: 1px solid grey;
+  text-align: right;
+  cursor: pointer;
+  background-color: beige;
 }
 
 /* Coding */
@@ -124,6 +136,7 @@
 
 .cardpreview {
   padding: 3%;
+  margin-bottom: 7px;;
 }
 
 /* Gif */
@@ -136,14 +149,33 @@
   background-color: black;
 }
 
-#tutto {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: whitesmoke;
+/* Portfolio */
+
+.port {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 10px;
+  background-color: beige;
 }
 
+#tutto {
+  display: grid;
+  width: 100%;
+  height: 97vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: beige;
+}
 
+#tutto h2 {
+  margin-bottom: 10px;;
+}
 
+.cursor {
+  cursor: url("../public/heart.svg"),auto;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

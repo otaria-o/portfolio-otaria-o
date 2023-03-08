@@ -1,6 +1,6 @@
 function Coding() {
   return (
-    <div className="board">
+    <div className="port">
       <h2>APPS</h2>
       <section className="cardpreview">
         <h3>I like books</h3>
