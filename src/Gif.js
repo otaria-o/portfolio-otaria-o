@@ -1,8 +1,7 @@
 function Gif() {
   return (
-    <div className="port">
-      <h2>GIFS</h2>
-      <section>
+    <div>
+      <section className="cardpreview">
         <h3>omina</h3>
         <img className="animated" src="/omina.gif"></img>
       </section>

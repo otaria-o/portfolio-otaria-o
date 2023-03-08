@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 function Portfolio() {
   const [thanks, setThanks] = useState("off");
+  const [apps, setApps] = useState(false);
+  const [gifs, setGifs] = useState(false);
+  const [contributions, setContributions] = useState(false);
   const handleThanks = () => {
     if (thanks === "off") {
       setThanks("on");
@@ -14,18 +17,44 @@ function Portfolio() {
       setThanks("off");
     }
   };
+  const handleApps = () => {
+    setApps(true);
+    setGifs(false);
+    setContributions(false);
+  };
+  const handleGifs = () => {
+    setGifs(true);
+    setApps(false);
+    setContributions(false);
+  };
+  const handleContributions = () => {
+    setContributions(true);
+    setGifs(false);
+    setApps(false);
+  };
   return (
-    <div>
-      <section id="tutto">
-        <Coding></Coding>
-        <Gif></Gif>
-        <Contributions></Contributions>
+    <div className="portfolio">
+      <nav className="cardpreview">
+        <h2 className="pointer" onClick={handleApps}>
+          APPS
+        </h2>
+        <h2 className="pointer" onClick={handleGifs}>
+          GIFS
+        </h2>
+        <h2 className="pointer" onClick={handleContributions}>
+          CONTRIBUTIONS
+        </h2>
+      </nav>
+      <section>
+        {apps === true && <Coding></Coding>}
+        {gifs === true && <Gif></Gif>}
+        {contributions === true && <Contributions></Contributions>}
       </section>
       <footer className="footer">
         <Link to="/">
           <h2 className="back">«</h2>
         </Link>
-        {thanks === "off" && (
+        {/* {thanks === "off" && (
           <h2 className="pointer" onClick={handleThanks}>
             thanks
           </h2>
@@ -34,7 +63,7 @@ function Portfolio() {
           <p className="creditslist">
             thanks to bears <button onClick={handleThanks}>x</button>
           </p>
-        )}
+        )} */}
       </footer>
     </div>
   );

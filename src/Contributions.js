@@ -1,7 +1,6 @@
 function Contributions() {
   return (
-    <div className="port">
-      <h2>CONTRIBUTIONS</h2>
+    <div className="cardpreview">
       <section className="cursor">
         <h3>things that I do for tech:</h3>
         <p>
@@ -38,12 +37,6 @@ function Contributions() {
             »»
           </a>
         </p>
-      </section>
-      <br />
-      <br />
-      <br />
-      <section>
-        <About />
       </section>
     </div>
   );
