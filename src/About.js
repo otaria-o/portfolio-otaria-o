@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="portfolio">
       <Menu />
-      <section className="msx">
+      <section className="card">
         <section className="">
           <p>
             I grew up in Italy, close to Milan, and wanted to be a dancer.

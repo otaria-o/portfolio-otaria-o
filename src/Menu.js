@@ -3,14 +3,20 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <nav className="nav">
-      <Link to="/apps">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/apps">
         <h2>APPS</h2>
       </Link>
-      <Link to="/gifs">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/gifs">
         <h2>GIFS</h2>
       </Link>
-      <Link to="/contributions">
+      <Link
+        style={{ textDecoration: "none", color: "black" }}
+        to="/contributions"
+      >
         <h2>CONTRIBUTIONS</h2>
+      </Link>
+      <Link style={{ textDecoration: "none", color: "black" }} to="/about">
+        <h2>ABOUT</h2>
       </Link>
     </nav>
   );
