@@ -56,7 +56,7 @@ function Portfolio() {
         </Link>
         {/* {thanks === "off" && (
           <h2 className="pointer" onClick={handleThanks}>
-            thanks
+            about
           </h2>
         )}
         {thanks === "on" && (

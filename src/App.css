@@ -31,7 +31,11 @@
   animation-name: bello;
   animation-delay: 3s;
   animation-duration: 7s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
+}
+
+.name {
+  letter-spacing: 2px;
 }
 
 .main {
@@ -40,11 +44,11 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  padding: 20%;
+  padding: 15%;
   animation-name: bello;
   animation-delay: 3s;
   animation-duration: 7s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
 }
 
 .icon {
@@ -67,8 +71,10 @@
 }
 
 @keyframes bello {
-  from {background-color: rgb(197, 29, 85);}
-  to {background-color: plum;}
+  0% {background-color: palevioletred;}
+  25% {background-color: rgb(211, 89, 129);}
+  50% {background-color: plum;}
+  75% {background-color: pink;}
 }
 
 /* .portfoliobar {

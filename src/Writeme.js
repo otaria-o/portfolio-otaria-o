@@ -16,10 +16,12 @@ function Writeme() {
       <main className="msx">
         <p>
           if you have a message for me, don't hesitate to write to
-          <i> roberta.garavaglia.it@gmail.com</i>
           <br />
+          <i> roberta.garavaglia.it@gmail.com</i>
+          {/* <br />
           in case of exciting news, you can call me on this number :{" "}
           <i>+39 333 444 1503</i>
+          <br /> */}
           <br />
           <img src="/heart.svg" alt="cuore" />
         </p>
@@ -39,7 +41,7 @@ function Writeme() {
             <li>Simple Icons</li>
             <li>SPICED Academy</li>
             <li>
-              Amèlie Poulain - pic{"   "}
+              Amèlie Poulain - pic!{"   "}
               <button onClick={handleCredits}>x</button>
             </li>
           </ul>
