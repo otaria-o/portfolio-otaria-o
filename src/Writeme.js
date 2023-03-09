@@ -27,11 +27,11 @@ function Writeme() {
         </p>
       </main>
       <div></div>
-      <footer className="footer">
+      <footer className="footer" id="writeme">
         <Link to="/">
           <h2 className="back">«</h2>
         </Link>
-        {credits === "off" && (
+        {/* {credits === "off" && (
           <h2 className="pointer" onClick={handleCredits}>
             credits
           </h2>
@@ -46,7 +46,7 @@ function Writeme() {
               <button onClick={handleCredits}>x</button>
             </li>
           </ul>
-        )}
+        )} */}
       </footer>
     </div>
   );

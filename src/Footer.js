@@ -8,9 +8,9 @@ function Footer() {
       <Link to="/">
         <h2 className="back">«</h2>
       </Link>
-      <Link to="/about">
+      {/* <Link to="/about">
         <h2>about</h2>
-      </Link>
+      </Link> */}
     </footer>
   );
 }

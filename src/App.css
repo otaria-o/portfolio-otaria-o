@@ -30,7 +30,7 @@
   padding: 5%;
   background-color: palevioletred;
   animation-name: bello;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-duration: 7s;
   animation-iteration-count: 2;
 }
@@ -45,10 +45,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 15%;
+  padding-bottom: 10%;
   animation-name: bello;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-duration: 7s;
   animation-iteration-count: 2;
 }
@@ -70,6 +70,7 @@
   max-height: 100px;
   border: solid 2px black;
   border-radius: 50%;
+  align-self: flex-start;
 }
 
 @keyframes bello {
@@ -122,6 +123,10 @@
   background-color: beige;
 }
 
+#writeme {
+  background-color: pink;
+}
+
 .pointer {
   cursor:pointer;
 }
@@ -141,36 +146,6 @@
 
 /* Coding */
 
-.preview {
-  max-width: 300px;
-  max-height: 300px;
-  border: 2px solid purple;
-  padding: 5%;
-}
-
-.cardpreview {
-  /* padding: 5%; */
-  max-width: 320px;
-}
-
-.card {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-}
-
-/* Gif */
-
-.animated {
-  max-width: 300px;
-  max-height: 300px;
-  padding: 3%;
-  border: 2px solid white;
-  background-color: black;
-}
 
 
 /* Portfolio */
@@ -180,7 +155,6 @@
   height: 100vh;
   background-color: pink;
   display: grid;
-  /* grid-template-columns: 200px 1fr; */
   grid-template-rows: 110px 1fr 50px;
 }
 
@@ -188,6 +162,27 @@
   text-align: center;
   padding: 5px;
   font-size: small;
+  margin-bottom: 20px;
+}
+
+.preview {
+  max-width: 300px;
+  max-height: 300px;
+  border: 2px solid purple;
+  padding: 5%;
+}
+
+.cardpreview {
+  max-width: 350px;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 /* .port { */
@@ -211,6 +206,20 @@
 /* #tutto h2 {
   margin-bottom: 10px;;
 } */
+
+
+/* Gif */
+
+.animated {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 5%;
+  border: 2px solid white;
+  background-color: black;
+}
+
+
+/* Contributions  */
 
 #cursor {
   cursor: url("../public/heart.svg"),auto;
