@@ -15,7 +15,7 @@ function Writeme() {
     <div className="page">
       <main className="msx">
         <p>
-          if you have a message for me, don't hesitate to write to
+          if you would like to contact me, don't hesitate to write to
           <br />
           <i> roberta.garavaglia.it@gmail.com</i>
           {/* <br />

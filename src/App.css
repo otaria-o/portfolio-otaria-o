@@ -4,7 +4,8 @@
 } 
 
 #root {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.8;
 }
 
 
@@ -26,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30%;
+  padding: 5%;
   background-color: palevioletred;
   animation-name: bello;
   animation-delay: 2s;
@@ -34,9 +35,9 @@
   animation-iteration-count: 2;
 }
 
-.name {
+/* .name {
   letter-spacing: 2px;
-}
+} */
 
 .main {
   background-color:palevioletred;
@@ -44,7 +45,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  padding: 15%;
+  padding-top: 20%;
+  padding-bottom: 20%;
   animation-name: bello;
   animation-delay: 2s;
   animation-duration: 7s;
@@ -99,13 +101,11 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 40px;
+  grid-template-rows: 1fr 50px;
 }
 
 .msx {
-  /* padding: 20%; */
-  margin-top: 20%;
-  line-height: 2;
+  margin-top: 25%;
   color: black;
   text-align: center;
 }
@@ -145,12 +145,22 @@
   max-width: 300px;
   max-height: 300px;
   border: 2px solid purple;
-}
-
-.cardpreview {
   padding: 5%;
 }
 
+.cardpreview {
+  /* padding: 5%; */
+  max-width: 320px;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
 
 /* Gif */
 
@@ -168,15 +178,16 @@
 .portfolio {
   width: 100%;
   height: 100vh;
-  background-color: beige;
+  background-color: pink;
   display: grid;
   /* grid-template-columns: 200px 1fr; */
-  grid-template-rows: 100px 1fr 40px;
+  grid-template-rows: 110px 1fr 50px;
 }
 
 .nav {
-  /* text-align: center; */
+  text-align: center;
   padding: 5px;
+  font-size: small;
 }
 
 /* .port { */
@@ -201,7 +212,7 @@
   margin-bottom: 10px;;
 } */
 
-.cursor {
+#cursor {
   cursor: url("../public/heart.svg"),auto;
 }
 

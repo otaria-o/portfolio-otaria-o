@@ -5,18 +5,18 @@ function About() {
   return (
     <div className="portfolio">
       <Menu />
-      <section>
-        <section className="cardpreview">
+      <section className="msx">
+        <section className="">
           <p>
             I grew up in Italy, close to Milan, and wanted to be a dancer.
-            <br />I live in Berlin with my husband and daughter.
+            <br />I live with my husband and my daughter in Berlin.
           </p>
         </section>
-        <img
+        {/* <img
           className="pic"
           src="/large_amelie-1024x593.jpg"
           alt="Amelie kid"
-        />
+        /> */}
       </section>
       <Footer />
     </div>

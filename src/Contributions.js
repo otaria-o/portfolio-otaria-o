@@ -5,8 +5,8 @@ function Contributions() {
   return (
     <div className="portfolio">
       <Menu />
-      <div className="cardpreview">
-        <section className="cursor">
+      <div className="card" id="cursor">
+        <section className="cardpreview">
           <h3>things that I do for tech:</h3>
           <p>
             free translator at freeCodeCamp.
@@ -20,7 +20,7 @@ function Contributions() {
           </p>
         </section>
         <br />
-        <section className="cursor">
+        <section className="cardpreview">
           <h3>things that I do for lit:</h3>
           <p>
             I collaborate with Milkbook, an italian website about children's
