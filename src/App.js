@@ -6,6 +6,7 @@ import Portfolio from "./Portfolio";
 import Coding from "./Coding";
 import Gif from "./Gif";
 import Contributions from "./Contributions";
+import About from "./About";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/contacts" element={<Writeme />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route path="/app" element={<Coding />}></Route>
-        <Route path="/gif" element={<Gif />}></Route>
+        <Route path="/apps" element={<Coding />}></Route>
+        <Route path="/gifs" element={<Gif />}></Route>
         <Route path="/contributions" element={<Contributions />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
     </BrowserRouter>
   );

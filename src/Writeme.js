@@ -12,7 +12,7 @@ function Writeme() {
     }
   };
   return (
-    <div className="contacts">
+    <div className="page">
       <main className="msx">
         <p>
           if you have a message for me, don't hesitate to write to
@@ -26,6 +26,7 @@ function Writeme() {
           <img src="/heart.svg" alt="cuore" />
         </p>
       </main>
+      <div></div>
       <footer className="footer">
         <Link to="/">
           <h2 className="back">«</h2>

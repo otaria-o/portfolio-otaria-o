@@ -29,7 +29,7 @@
   padding: 30%;
   background-color: palevioletred;
   animation-name: bello;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-duration: 7s;
   animation-iteration-count: 2;
 }
@@ -46,7 +46,7 @@
   justify-items: center;
   padding: 15%;
   animation-name: bello;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-duration: 7s;
   animation-iteration-count: 2;
 }
@@ -94,14 +94,17 @@
 
 /* Writeme */
 
-.contacts {
+.page {
   background-color: beige;
   width: 100%;
   height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 40px;
 }
 
 .msx {
-  padding: 20%;
+  /* padding: 20%; */
+  margin-top: 20%;
   line-height: 2;
   color: black;
   text-align: center;
@@ -167,10 +170,14 @@
   height: 100vh;
   background-color: beige;
   display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: 200px 1fr; */
+  grid-template-rows: 100px 1fr 40px;
 }
 
+.nav {
+  /* text-align: center; */
+  padding: 5px;
+}
 
 /* .port { */
   /* height: 100vh; */
