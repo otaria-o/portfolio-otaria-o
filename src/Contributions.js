@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
+import Credits from "./Credits";
 
 function Contributions() {
   return (
@@ -43,6 +44,7 @@ function Contributions() {
           </p>
         </section>
       </div>
+      <Credits />
       <Footer />
     </div>
   );

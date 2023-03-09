@@ -133,12 +133,15 @@
 
 .creditslist {
   font-size: smaller;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .creditslist button {
   border-radius: 50%;
   border: 1px solid grey;
-  text-align: right;
+  /* text-align: right; */
   cursor: pointer;
   background-color: beige;
 }
@@ -155,7 +158,7 @@
   height: 100vh;
   background-color: pink;
   display: grid;
-  grid-template-rows: 150px 1fr 50px;
+  grid-template-rows: 150px 1fr 50px 50px;
 }
 
 .nav {

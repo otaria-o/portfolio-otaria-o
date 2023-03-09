@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
+import Credits from "./Credits";
 
 function About() {
   return (
@@ -18,6 +19,7 @@ function About() {
           alt="Amelie kid"
         /> */}
       </section>
+      <Credits />
       <Footer />
     </div>
   );

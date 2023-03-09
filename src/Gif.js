@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
+import Credits from "./Credits";
 
 function Gif() {
   return (
@@ -19,6 +20,7 @@ function Gif() {
           <p>are coming soon</p>
         </section>
       </section>
+      <Credits />
       <Footer />
     </div>
   );

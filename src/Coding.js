@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
+import Credits from "./Credits";
 
 function Coding() {
   return (
@@ -47,6 +48,7 @@ function Coding() {
           </figcaption>
         </section>
       </section>
+      <Credits />
       <Footer />
     </div>
   );
