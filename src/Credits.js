@@ -24,7 +24,7 @@ function Credits() {
           <li>Maki icon by Mapbox</li>
           <li>Simple Icons</li>
           <li>SPICED Academy</li>
-          <li>Amèlie Poulain - in the pic!{"   "}</li>
+          <li>Amèlie Poulain - in the pic!</li>
           {/* <button onClick={handleCredits}>x</button> */}
         </ul>
       )}
