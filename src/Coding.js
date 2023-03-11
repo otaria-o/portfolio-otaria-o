@@ -17,6 +17,7 @@ function Coding() {
             a calendar dedicated to the Bologna Children's Book Fair, 6-9 March
             2023, 60th edition, Bologna, Italy.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://bcbf2023-calendar.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,6 +39,7 @@ function Coding() {
             friendships, and if you want to share your thoughts there is a group
             chat.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://github.com/otaria-o/social-cookies"
               target="_blank"
               rel="noopener noreferrer"

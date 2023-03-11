@@ -20,9 +20,9 @@ function About() {
             passionate about books, especially picture books, and also poetry.
           </p>
           <aside className="fotine">
-            {/* <p>&larr;</p> */}
+            {/* <p className="arrow">&larr;</p> */}
             <img className="slide" src="/1678464141377.jpg" alt="apple" />
-            {/* <p>&rarr;</p>  */}
+            {/* <p className="arrow">&rarr;</p> */}
           </aside>
           {/* <figcaption className="label">this is me</figcaption> */}
         </section>

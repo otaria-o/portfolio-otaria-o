@@ -12,6 +12,7 @@ function Contributions() {
             free translator at freeCodeCamp, an open-source project and a
             friendly community where you can learn to code for free.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://www.freecodecamp.org/italian/news/"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,6 +28,7 @@ function Contributions() {
             I collaborate with Milkbook, an italian website about children's
             literature.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://www.milkbook.it"
               target="_blank"
               rel="noopener noreferrer"
@@ -35,6 +37,7 @@ function Contributions() {
             </a>
             <br />I wrote few articles for Altri Animali.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://www.altrianimali.it"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,6 +48,7 @@ function Contributions() {
             And I also wrote some things about Primo Levi. A book review was
             published on the first issue of Materialismo Storico.{" "}
             <a
+              style={{ textDecoration: "none" }}
               href="https://journals.uniurb.it/index.php/materialismostorico"
               target="_blank"
               rel="noopener noreferrer"

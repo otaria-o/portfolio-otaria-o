@@ -18,8 +18,8 @@ function Writeme() {
       </main>
       <div></div>
       <footer className="footer" id="writeme">
-        <Link to="/">
-          <h2 className="back">«</h2>
+        <Link style={{ textDecoration: "none" }} to="/">
+          <h2 className="back">roberta garavaglia</h2>
         </Link>
       </footer>
     </div>

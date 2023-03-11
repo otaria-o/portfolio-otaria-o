@@ -8,7 +8,7 @@ function Footer() {
           CREDITS
         </h2>
       </Link>
-      <Link to="/">
+      <Link style={{ textDecoration: "none" }} to="/">
         <h2>«</h2>
       </Link>
       <Link style={{ textDecoration: "none", color: "black" }} to="/about">
