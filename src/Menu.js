@@ -15,9 +15,6 @@ function Menu() {
       >
         <h2>CONTRIBUTIONS</h2>
       </Link>
-      <Link style={{ textDecoration: "none", color: "black" }} to="/about">
-        <h2>ABOUT</h2>
-      </Link>
     </nav>
   );
 }

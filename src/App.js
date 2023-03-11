@@ -7,6 +7,7 @@ import Coding from "./Coding";
 import Gif from "./Gif";
 import Contributions from "./Contributions";
 import About from "./About";
+import Credits from "./Credits";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/gifs" element={<Gif />}></Route>
         <Route path="/contributions" element={<Contributions />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/credits" element={<Credits />}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -1,6 +1,5 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
-import Credits from "./Credits";
 
 function Contributions() {
   return (
@@ -34,9 +33,19 @@ function Contributions() {
             >
               »»
             </a>
-            <br />I also wrote few articles for Altri Animali.{" "}
+            <br />I wrote few articles for Altri Animali.{" "}
             <a
               href="https://www.altrianimali.it"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              »»
+            </a>
+            <br />
+            And I also wrote some things about Primo Levi. A book review was
+            published on the first issue of Materialismo Storico.{" "}
+            <a
+              href="https://journals.uniurb.it/index.php/materialismostorico"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +54,6 @@ function Contributions() {
           </p>
         </section>
       </div>
-      <Credits />
       <Footer />
     </div>
   );

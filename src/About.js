@@ -1,6 +1,5 @@
 import Menu from "./Menu";
 import Footer from "./Footer";
-import Credits from "./Credits";
 
 function About() {
   return (
@@ -28,7 +27,6 @@ function About() {
           {/* <figcaption className="label">this is me</figcaption> */}
         </section>
       </section>
-      <Credits />
       <Footer />
     </div>
   );

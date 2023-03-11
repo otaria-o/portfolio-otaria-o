@@ -116,12 +116,12 @@
 }
 
 .footer {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-evenly;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
   background-color: beige;
-  align-items: center; */
+  align-items: center;
   text-align: center;
   height: 50px;
 }
@@ -132,10 +132,6 @@
 
 .pointer {
   cursor:pointer;
-}
-
-.crtedits {
-  height: 50px;
 }
 
 .creditslist {
@@ -260,6 +256,7 @@
   width: 200px;
   height: 200px;
   border: 2px solid bleck;
+  border-radius: 50%;
 }
 
 
