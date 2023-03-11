@@ -9,7 +9,7 @@ function Footer() {
         </h2>
       </Link>
       <Link style={{ textDecoration: "none" }} to="/">
-        <h2>«</h2>
+        <h2>roberta garavaglia</h2>
       </Link>
       <Link style={{ textDecoration: "none", color: "black" }} to="/about">
         <h2 style={{ fontSize: "small" }}>ABOUT</h2>
