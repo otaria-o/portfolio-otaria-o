@@ -7,7 +7,7 @@ function Writeme() {
         <p>
           if you would like to contact me, don't hesitate to write to
           <br />
-          <i> roberta.garavaglia.it@gmail.com</i>
+          <i> roberta.garavaglia.de@gmail.com</i>
           {/* <br />
           in case of exciting news, you can call me on this number :{" "}
           <i>+39 333 444 1503</i>

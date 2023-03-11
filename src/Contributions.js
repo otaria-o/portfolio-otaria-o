@@ -10,7 +10,8 @@ function Contributions() {
         <section className="cardpreview">
           <h3>things that I do for tech:</h3>
           <p>
-            free translator at freeCodeCamp.
+            free translator at freeCodeCamp, an open-source project and a
+            friendly community where you can learn to code for free.{" "}
             <a
               href="https://www.freecodecamp.org/italian/news/"
               target="_blank"

@@ -118,9 +118,10 @@
 .footer {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   background-color: beige;
+  align-items: center;
 }
 
 #writeme {
@@ -189,6 +190,9 @@
   align-items: stretch;
 }
 
+.bio {
+  padding: 10%;
+}
 /* .port { */
   /* height: 100vh; */
   /* display: flex; */
