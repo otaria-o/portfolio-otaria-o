@@ -129,7 +129,7 @@
   height: 100vh;
   background-color: pink;
   display: grid;
-  grid-template-rows: 150px 1fr 50px;
+  grid-template-rows: 70px 1fr 50px;
   /* grid-template-columns: 250px 1fr;
   grid-template-areas: 
   "menu varie"
@@ -138,11 +138,13 @@
 }
 
 .nav {
-  text-align: center;
-  padding: 5px;
+  color: black;
   font-size: small;
   margin-bottom: 10px;
-  color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .preview {
@@ -155,6 +157,7 @@
 .cardpreview {
   max-width: 350px;
   background-color: pink;
+  padding-bottom: 10px;
 }
 
 .card {
@@ -219,6 +222,16 @@
 
 /* media queries sul Portfolio per rendere il menu al centro dello schermo */
 
+/* @media screen and (max-width: 768px) {
+
+.nav {
+  text-align: center;
+  padding: 5px;
+  font-size: small;
+  margin-bottom: 10px;
+  color: black;
+}
+} */
 /* @media screen and (max-width: 768px) {
   .portfolio {
     width: 100%;
