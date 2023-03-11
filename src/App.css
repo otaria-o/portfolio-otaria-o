@@ -116,12 +116,14 @@
 }
 
 .footer {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-evenly;
   background-color: beige;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  height: 50px;
 }
 
 #writeme {
@@ -132,20 +134,25 @@
   cursor:pointer;
 }
 
+.crtedits {
+  height: 50px;
+}
+
 .creditslist {
   font-size: smaller;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: plum;
 }
 
-.creditslist button {
+/* .creditslist button {
   border-radius: 50%;
   border: 1px solid grey;
-  /* text-align: right; */
   cursor: pointer;
   background-color: beige;
-}
+} */
 
 
 /* Coding */
@@ -190,9 +197,6 @@
   align-items: stretch;
 }
 
-.bio {
-  padding: 10%;
-}
 /* .port { */
   /* height: 100vh; */
   /* display: flex; */
@@ -232,6 +236,34 @@
 #cursor {
   cursor: url("../public/heart.svg"),auto;
 }
+
+/* About */
+
+.bio {
+  padding: 5%;
+}
+
+.fotine {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.label {
+  text-align: center;
+  font-size: small;
+}
+
+.slide {
+  width: 200px;
+  height: 200px;
+  border: 2px solid bleck;
+}
+
+
+
 
 /* .App-logo {
   height: 40vmin;

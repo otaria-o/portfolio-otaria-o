@@ -11,7 +11,7 @@ function Credits() {
     }
   };
   return (
-    <div>
+    <div className="credits">
       <h2
         style={{ fontSize: "small" }}
         onClick={handleCredits}
@@ -21,11 +21,8 @@ function Credits() {
       </h2>
       {credits === "on" && (
         <ul className="creditslist">
-          <li>Maki icon by Mapbox</li>
-          <li>Simple Icons</li>
-          <li>SPICED Academy</li>
-          <li>Amèlie Poulain - in the pic!</li>
-          {/* <button onClick={handleCredits}>x</button> */}
+          Maki icon by Mapbox, Simple Icons, SPICED Academy, 842.studio, Amèlie
+          Poulain in the pic!
         </ul>
       )}
     </div>
