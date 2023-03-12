@@ -37,7 +37,7 @@ function Coding() {
             a mini social network for cookie lovers : you can register, upload a
             profile pic, search for people, ask for friendship and even end
             friendships, and if you want to share your thoughts there is a group
-            chat.{" "}
+            chat. it has not been depoyed, but it is on GitHub.{" "}
             <a
               style={{ textDecoration: "none" }}
               href="https://github.com/otaria-o/social-cookies"
