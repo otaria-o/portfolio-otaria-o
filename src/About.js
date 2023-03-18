@@ -6,7 +6,7 @@ function About() {
     <div className="portfolio">
       <Menu />
       <section className="card">
-        <section className="bio">
+        <article className="bio">
           <p>
             I grew up in Italy, close to Milan, and wanted to be a dancer.
             {/* <br />I have a Master's degree in Sociology and have recently
@@ -25,7 +25,7 @@ function About() {
             {/* <p className="arrow">&rarr;</p> */}
           </aside>
           {/* <figcaption className="label">this is me</figcaption> */}
-        </section>
+        </article>
       </section>
       <Footer />
     </div>
