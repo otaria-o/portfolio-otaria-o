@@ -32,7 +32,7 @@ function About() {
           </p>
           <aside className="fotine">
             {/* <p className="arrow">&larr;</p> */}
-            <img className="slide" src="/1678464141377.jpg" alt="apple" />
+            <img className="slide" src="/1699264530278.jpg" alt="apple" />
             {/* <p className="arrow">&rarr;</p> */}
           </aside>
           {/* <figcaption className="label">this is me</figcaption> */}
