@@ -20,12 +20,6 @@ function About() {
           <br/>tra poche settimane uscirà un mio post su un albo illustrato a cui tengo.
            
           </p>
-  {<aside className="fotine">}
-            {/* <p className="arrow">&larr;</p> */}
-  {<img className="slide" src="/1699264530278.jpg" alt="apple" />}
-            {/* <p className="arrow">&rarr;</p> */}
-          </aside>
-          {/* <figcaption className="label">this is me</figcaption> */}
         </article>
       </section>
       <Footer />
