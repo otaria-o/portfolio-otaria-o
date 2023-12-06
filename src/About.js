@@ -9,15 +9,11 @@ function About() {
         <article className="bio">
         
           <p>
-          pensieri liberi dopo due anni stranieri - 
-          <br/>due anni fa circa mi sono trasferita a Berlino. i primi mesi sono stati un toccasana per la mia autostima, la lingua tedesca mi piace assai. 
-          <br/>un anno fa ho cominciato un corso intensivo per web developer, con l'obiettivo di trovare lavoro e restare a Berlino - la cosa più impegnativa che abbia mai fatto. 
-          perché - mi chiedo adesso, dopo aver assecondato entusiasmi labili e opinioni altrui - invece di scrivere un romanzo scrivevo codice per programmare mini social network e mappe di biblioteche? e perché il santissimo servizio che offrono le biblioteche a Berlino è a pagamento e in Italia no? 
-          <br/>ero abbastanza brava - anche se non l'ho mai saputo ammettere -  a costruire reti quando facevo l'assistente sociale, ma non so sfruttare la mia rete per trovarmi un lavoro. 
-          e invece di studiarle le reti - l'internetworking - ho pensato bene di mettermi a tradurre articoli, sulle reti e la tecnologia più in generale.
-          <br/>rientrerò presto in Italia, in una città che può vantare un parco grandissimo. 
-          <br/>vorrei trovare intanto il mio gene dell'introversione e coccolarlo tutta la notte. 
-          <br/>tra poche settimane uscirà un mio post su un albo illustrato a cui tengo.
+          I am returning to Italy after two years in Berlin and I am ready for new adventures. 
+          <br/> My previous jobs in social work and in retail have helped me to develop skills such as organization and dealing with people. 
+          <br/> I am passionate about children's literature and write book reviews for Milkbook, a dedicated website.
+          <br/> I am also a free translator for freeCodeCamp, an open source project and a friendly community where you can learn to code for free - someone told me that programming languages are like foreign languages, so I started learning JavaScript, Python, HTML, CSS, React, PostgreSQL, Linux, web accessibility.
+          <br/> I would like to start new experiences and maybe find a way to combine my interests in books, social work, and the web.
            
           </p>
         </article>
