@@ -5,8 +5,8 @@ function About() {
   return (
     <div className="page">
      
-      <section className="card">
-        <article className="bio">
+      <section>
+        <article>
           <p>
             <b>
               Assistente sociale appassionata di scrittura e letteratura per
