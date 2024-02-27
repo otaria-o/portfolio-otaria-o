@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 function About() {
   return (
-    <div className="portfolio">
+    <div className="page">
      
       <section className="card">
         <article className="bio">
