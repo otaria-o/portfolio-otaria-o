@@ -19,8 +19,12 @@ function Home() {
         >
           <img className="icon" src="/github.svg" alt="github" />
         </a>
-        <Link to="/portfolio">
-          <button className="button">PORTFOLIO</button>
+        <Link to="/about">
+           <img
+          className="pic"
+          src="/large_amelie-1024x593.jpg"
+          alt="Amelie kid"
+        />
         </Link>
         <a
           href="http://independent.academia.edu/robertagaravaglia"
@@ -34,11 +38,6 @@ function Home() {
         </Link>
       </section>
       <footer>
-        <img
-          className="pic"
-          src="/large_amelie-1024x593.jpg"
-          alt="Amelie kid"
-        />
       </footer>
     </div>
   );
