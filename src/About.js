@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function About() {
   return (
     <div className="portfolio">
-      <Menu />
+     
       <section className="card">
         <article className="bio">
           <p>
@@ -29,17 +29,17 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Milkbook
+                 Milkbook
               </a>
               , un sito dedicato alla letteratura per l'infanzia. <br />
               Ho scritto alcuni pezzi per
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.altrianimali.it"
+                href="https://www.altrianimali.it/author/roberta-garavaglia/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Altri Animali
+                 Altri Animali
               </a>
               .
               <br />
@@ -51,7 +51,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Materialismo Storico
+                 Materialismo Storico
               </a>
               .
               <br />
@@ -63,7 +63,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i>Teo </i>
+                <i> Teo </i>
               </a>{" "}
               e{" "}
               <a
@@ -84,11 +84,7 @@ function About() {
               Gaia Manzini e organizzato dalla scuola Belleville.
             </p>
           </p>
-          <aside className="fotine">
-            {/* <p className="arrow">&larr;</p> */}
-            <img className="slide" src="/1699264530278.jpg" alt="apple" />
-            {/* <p className="arrow">&rarr;</p> */}
-          </aside>
+          
           {/* <figcaption className="label">this is me</figcaption> */}
         </article>
       </section>
