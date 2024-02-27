@@ -88,7 +88,9 @@ function About() {
           {/* <figcaption className="label">this is me</figcaption> */}
         </article>
       </section>
+      <section>
       <Footer />
+          </section>
     </div>
   );
 }
