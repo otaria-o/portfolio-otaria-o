@@ -42,6 +42,7 @@
 .icon {
   width: 30px;
   height: 30px;
+  padding: 10px;
 }
 
 .button {
@@ -52,8 +53,8 @@
 }
 
 .pic {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 80px;
+  max-height: 80px;
   border: solid 2px black;
   border-radius: 50%;
   align-self: flex-start;
